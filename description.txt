@@ -1,0 +1,44 @@
+Rooshan Aslam
+200331186
+CS215
+http://www2.cs.uregina.ca/~aslam20r/login.php
+http://www2.cs.uregina.ca/~aslam20r/register.php
+http://www2.cs.uregina.ca/~aslam20r/feed.php
+
+NOTE: ALL the .html files have been updated to .php and to call themselves under action="file_name.php".
+
+comment-events.js - Used to add the event registers for the commentnewsfeedpost.php page (counting characters as the user types) 
+
+comment-functions.js - Used in combination with the comment-events.js to handle the events functions
+
+commentnewsfeedpost.php - Used to post comments to the news feed or the page referred to as the "Comment form" in assignment #2
+
+comments.php - Used to view all the comments under a post from the newsfeed or the page referred to as the "Status detial page with comments"
+
+feed.php - Used to show your home page or "status list page" from assignment #2
+
+image-comment-events.js - Used to register the event listeners for comments.php (for the liking of a comment)
+
+image-comment-functions.js - Used to handle the functions from image-comment-events.js
+
+image-events.js - Used to add event listeners to the feed.php page (for the liking of a comment)
+
+image-functions.js - Used the handle the events using functions thrown by image-events.js
+
+login-events.js - Used to add the event listeners for the login page (error correction input)
+
+login-functions.js - Used to handle the added event listeners using functions for the login page from login-events.js 
+
+login.php - contatins the content for login pages
+
+newfeedpost-events.js - Similar to that off comment-events.js but for the newsfeedposting (counts the users character limit)
+ 
+newfeedpost-functions.js - Using functions, it handles the event listeners from the newsfeedpost-events.js
+
+newsfeedpost.php - Used to post a comment to your own news feed or known as the "status form" in assignment #2
+ 
+register.php - Used to registers the user into MESH and known as the "signup form" in assignment #2
+
+signup-events.js  - Used to handle the error corrections and add event listeners, much like the login-events.js
+
+signup-functions.js - Used to the handle the functions thrown by the signup-events.js

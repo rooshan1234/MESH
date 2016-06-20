@@ -1,0 +1,298 @@
+@CHARSET "UTF-8";
+h1
+{
+	margin-bottom:10px;
+}
+hr{
+}
+/*Login html CSS*/
+.bodyWidth
+{
+	margin:0px auto;
+	max-width:55rem;
+	width: 100%;
+}
+
+.bodyMain
+{
+	height:240px;
+ 	text-align: center;
+}
+.error
+{
+	/*width:195px;
+	margin-left:103px;*/
+	padding-top: 5px;
+	display:none;
+}
+#dislike_icon_comments{
+	position: relative;
+    right: 15px;
+    width: 4%;
+    border: 0px;
+    bottom: l1px;
+    top: -11px
+}
+#post{
+	width: 90px;
+	height: 80px;
+}
+#like_icon_comments{
+	position: relative;
+    right: 15px;
+    width: 4%;
+    border: 0px;
+	top: -11px;
+    display:none;
+}
+#charactersNewspost
+{
+	width:525px;
+	text-align: right;
+}
+#dislike_icon{
+	
+	position: relative;
+    right: 40px;
+    width: 4%;
+    border: 0px;
+}
+#like_icon{
+	position: relative;
+    right: 40px;
+    width: 4%;
+    border: 0px;
+    display: none;
+}
+#charactersRemaining
+{
+	position: relative;
+	left: 87px;
+}
+.error_bottom
+{
+	margin-top:3px;
+	text-align: left;
+	position: absolute;
+}
+.bodyMain:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+.formClass
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+.buttonBox
+{
+	text-align:right;
+	padding-top:5px;
+}
+
+
+/*Register.html CSS*/
+.buttonBoxRegister
+{
+	text-align:right;
+	padding-top:8px;
+}
+
+
+/*General CSS*/
+.textBox
+{
+	padding-top:3px;
+	display: inline-block;
+	width:100px;
+	text-align:left;
+}
+
+.inputBox
+{
+	padding-top:8px;
+	display: inline-block;
+	width:201px;
+	text-align:left;
+}
+
+/* Feed.html CSS */
+.navigationMenu
+{
+	width:25%;
+	background-color: #F2F2F2;
+	box-sizing:border-box;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:4px;
+	float:left;
+	margin-top:8px;
+}
+.nagivationMenulist
+{
+	padding-left:0px;
+	list-style-type:none;
+}
+.newsfeed
+{
+	width:75%;
+	display: inline-block;
+}
+.postList
+{
+	margin-top:5px;
+	list-style-type:none;
+}
+li
+{
+	padding-top:3px;
+	padding-bottom:3px;
+}
+img {
+    display: inline-block;
+    vertical-align: middle;
+    height: auto;
+    max-width: 100%;
+}
+p{
+	margin-top:0px;
+	margin-bottom:0px;
+	display: inline-block;
+	width:100%;
+}
+.statusButtons
+{
+	margin-top:10px;
+}
+h3
+{
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+.imageResizePost
+{
+	width:12%;
+	display:inline-block;
+}
+.newsFeedPost
+{
+}
+.newPostPerson{
+	width: 87%;
+	background-color: #F2F2F2;
+    vertical-align: top;
+	display: inline-block;	
+}
+.newsFeedComments
+{
+	vertical-align: top;
+	width:70%;
+	display: inline-block;	
+}
+.CommentList
+{
+	list-style-type:none;
+}
+h4
+{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.nagivationMenulist
+{
+	padding-left:0px;
+	list-style-type:none;
+}
+.nagivationMenulist a
+{
+	text-decoration:none;
+}
+.nagivationMenulist a:link{
+    color: black;
+}
+.nagivationMenulist a:visited
+{
+}
+.commentContainer{
+	display: inline-block;
+	width:69%;
+	margin-top:8px;
+}
+.commentContainerPost{
+	display: inline-block;
+	width:75%;
+}
+.commentboxandbuttons
+{
+	width: 100%;
+	text-align:center;
+}
+.commentboxandbuttonsPost
+{
+
+	padding-left:38px;
+	position: absolute;
+	text-align:center;
+}
+.statusButtons > input[type="file"] {
+	width: 221px;
+}
+.commentboxandbuttonsPost > textarea
+{
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	width: 399px; 
+	height: 115px;
+}
+textarea{
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	width: 518px; 
+	height: 168px;
+}
+.newsFeedComments
+{
+	vertical-align: top;
+	width:70%;
+	display: inline-block;	
+}
+.newsFeedComment
+{
+	vertical-align: top;
+	display: inline-block;
+}
+.replyandshare
+{
+	margin-top: 8px;
+}
+.postNewsFeedComment
+{
+	display: inline-block;
+	width:69%;
+	margin-top:8px;
+}
+.commentButtons
+{
+	position: absolute;
+	display: inline-block;
+	width:76%;
+	left: 70px;
+	top:200px;
+}
+.spaceAdj
+{
+	margin-left: 3px;
+}
+.replyandshare > a
+{
+	text-decoration:none;
+}
+.imageResizeComment
+{
+	display:inline-block;
+}
