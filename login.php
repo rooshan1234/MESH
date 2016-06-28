@@ -66,17 +66,16 @@ include_once ("config.php");
 
 <div class="bodyWidth">
 	<div class="bodyMain">
-			<form id="formClass" class="formClass" action="login.php" method="post">
+			<form id="loginClass" class="loginClass" action="login.php" method="post">
 				<input type="hidden" name="submitted" value="1"/>
-				<div class="textBox">Username:</div>
-				<div class="inputBox"><input type="text" name="username" id="username" ></div>
+
+				<!-- Form fields -->
+				<label>Username:</label><input type="text" name="username" id="username" >
 				<br>
-				<div class="textBox">Password:</div>
-				<div class="inputBox"><input type="password" name="password" id="password"></div>
+				<label>Password:</label><input type="password" name="password" id="password">
 				<br>
 				<div class="buttonBox">
-				<input type="submit" value="Register" id="Register">
-				<input type="submit" value="Login">
+					<input type="submit" value="Register" id="Register"><input type="submit" value="Login">
 				</div>
 				<div class="error_bottom">
 					<p>	

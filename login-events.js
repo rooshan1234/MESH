@@ -1,4 +1,4 @@
-var theForm = document.getElementById("formClass");
+var theForm = document.getElementById("loginClass");
 
 var theUserName = document.getElementById("username");
 var thePassword = document.getElementById("password");
@@ -10,7 +10,6 @@ thePassword.addEventListener("blur",password_event,false);
 
 theRegisterButton.addEventListener("click",function (){var URL='register.php'; redirectToURL(URL);}, false);
 
-//testing purposes
 theForm.onsubmit = submitForm;
 
 //theForm.addEventListener("sumbit",submitForm,false);

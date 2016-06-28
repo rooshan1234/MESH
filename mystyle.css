@@ -12,7 +12,18 @@ hr{
 	max-width:55rem;
 	width: 100%;
 }
-
+#loginClass > label{
+	width: 70px;
+	display: inline-block;
+	float: left;
+	clear: left;
+	text-align: left;
+}
+#loginClass > input{
+	display:inline-block;
+	text-align: left;
+	float: left;
+}
 .bodyMain
 {
 	height:240px;
@@ -83,15 +94,19 @@ hr{
   margin-right: -0.25em; /* Adjusts for spacing */
 }
 
-.formClass
+.loginClass
 {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.registrationClass{
 	display: inline-block;
 	vertical-align: middle;
 }
 .buttonBox
 {
-	text-align:right;
-	padding-top:5px;
+	text-align: right;
 }
 
 

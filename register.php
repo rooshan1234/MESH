@@ -55,11 +55,12 @@ if (isset($_POST["submitted"]) && $_POST["submitted"]){
 
 <div class="bodyWidth">
 	<div class="bodyMain">
-			<form id="formClass" class="formClass" action="register.php" method="post">
+			<form id="registrationClass" class="registrationClass" action="register.php" method="post">
 				
 			<input type="hidden" name="submitted" value="1"/>
 
-				<!-- registration information required -->
+				<!-- registration information required -- Form fields -->
+
 				<div class="textBox">First Name:</div>
 				<div class="inputBox"><input type="text" name="firstname" id="firstname" ></div>
 				<div class="textBox">Last Name:</div>
